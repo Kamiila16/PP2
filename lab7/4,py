@@ -1,0 +1,6 @@
+import re
+with open("row.txt", "r") as file:
+    content = file.read()
+uppercase_followed_by_lowercase_pattern = r'[A-Z][a-z]+'
+sequences_uppercase_lowercase = re.findall(uppercase_followed_by_lowercase_pattern, content)
+print( sequences_uppercase_lowercase)
