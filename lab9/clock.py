@@ -11,9 +11,9 @@ FPS = 60
 t = datetime.datetime.now()
 angle = -(int(t.strftime("%S")) * 6) - 6
 angleM = -(int(t.strftime("%M")) * 6 + (int(t.strftime("%S")) * 6 / 60)) - 54
-background = pygame.image.load('C:/Users/Админ/OneDrive/Рабочий стол/pp2 labs/img/mc.png')
-second = pygame.image.load('C:/Users/Админ/OneDrive/Рабочий стол/pp2 labs/img/s.png')
-minute = pygame.image.load('C:/Users/Админ/OneDrive/Рабочий стол/pp2 labs//img/h.png')
+background = pygame.image.load('C:/Users/Админ/OneDrive/Рабочий стол/pp2 labs/lab9/img/mc.png')
+second = pygame.image.load('C:/Users/Админ/OneDrive/Рабочий стол/pp2 labs/lab9/img/s.png')
+minute = pygame.image.load('C:/Users/Админ/OneDrive/Рабочий стол/pp2 labs/lab9/img/h.png')
 def rotate(image, rect, angle):
     new_image = pygame.transform.rotate(image, angle)
     rect = new_image.get_rect(center=rect.center)
