@@ -8,9 +8,9 @@ pygame.display.set_caption("fav")
 red = (255, 0, 0)
 black = (0, 0, 0)
 font=pygame.font.SysFont(None, 70)
-lybrary = ['C:/Users/Админ/OneDrive/Рабочий стол/pp2 labs/music/1.mp3', 
-           'C:/Users/Админ/OneDrive/Рабочий стол/pp2 labs/music/2.mp3', 
-           'C:/Users/Админ/OneDrive/Рабочий стол/pp2 labs/music/3.mp3']
+lybrary = ['C:/Users/Админ/OneDrive/Рабочий стол/pp2 labs/lab9/music/1.mp3', 
+           'C:/Users/Админ/OneDrive/Рабочий стол/pp2 labs/lab9/music/2.mp3', 
+           'C:/Users/Админ/OneDrive/Рабочий стол/pp2 labs/lab9/music/3.mp3']
 ctrack = 0
 running = True
 running_song = True
